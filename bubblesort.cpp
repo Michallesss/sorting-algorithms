@@ -3,15 +3,9 @@
 
 using namespace std;
 
-int tab[] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
-
-int bubblesort(int tab[]) {
-    //here
-}
-
-int main() {
-    for(int j=0; j<sizeof(tab)/sizeof(tab[0])-1; j++) {
-        for(int i=0; i<sizeof(tab)/sizeof(tab[0])-1; i++) {
+void bubblesort(int tab[], int size) {
+    for(int j=0; j<size-1; j++) {
+        for(int i=0; i<size-1; i++) {
             if(tab[i]>tab[i+1]) {
                 int x=tab[i];
                 tab[i]=tab[i+1];
@@ -20,9 +14,9 @@ int main() {
         }
     }
 
-    for(int i=0; i<10; i++) {
+    for(int i=0; i<size; i++) {
         cout <<tab[i];
-    }
-
-    return 0;
+    } //maybe later replace this to returning array tab
 }
+
+//int main() {return 0;}
