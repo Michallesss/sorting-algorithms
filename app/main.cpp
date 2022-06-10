@@ -15,7 +15,7 @@ void coutarray(int arr[], int arrsize);
 int main() {
     //dodać podawanie zawartości tablicy
 
-    cout <<"1.Bubble sort\n 2.Merfe sort\n 3.Selection sort\n 4.Quick sort" <<endl <<"Option: ";
+    cout <<"1.Bubble sort\n2.Merfe sort\n3.Selection sort\n4.Quick sort" <<endl <<"Option: ";
     int option;
     cin >>option;
     switch(option) {
