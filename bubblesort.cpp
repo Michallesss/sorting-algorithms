@@ -16,7 +16,5 @@ void bubblesort(int tab[], int size) {
 
     for(int i=0; i<size; i++) {
         cout <<tab[i];
-    } //maybe later replace this to returning array tab
+    }
 }
-
-//int main() {return 0;}
