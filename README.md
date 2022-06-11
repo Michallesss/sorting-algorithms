@@ -23,4 +23,9 @@
 <b>Description:</b> Find the smallest element using a linear scan and move it to the front (swapping it with the front element). Then, find the second smallest and move it tot he second position in the list, using once again a linear scan. Continue to do this until the list is sorted.<br>
 <b>Runtime:</b> <i>O(n²) average and worst case, Memory: O(1)</i>
 
+## Runtimes:
+<img src="https://lankydanblog.files.wordpress.com/2017/04/bigo.png?w=616" alt="">
+
+##
+
 ##### Resources from: https://ericgustin.medium.com/the-four-sorting-algorithms-you-need-to-know-9dd14f6ba13b
