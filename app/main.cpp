@@ -44,6 +44,6 @@ int main() {
 
 void coutarray(int arr[], int arrsize) { //actual function
     for(int i=0; i<arrsize; i++) {
-        cout <<tab[i];
+        cout <<arr[i];
     }
 }
