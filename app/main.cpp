@@ -24,7 +24,7 @@ int main() {
             coutarray(tab, tabsize);
             break;
         case 2:
-            mergesort(tab, tabsize);
+            mergesort(tab, 0, tabsize-1);
             coutarray(tab, tabsize);
             break;
         case 3:
